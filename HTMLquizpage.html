@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizApp</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="main">
+        <header class="header">
+            <div class="logo">
+                <img class="logoimage" src="./logos/download-removebg-preview.png" alt="">
+
+            </div>
+            <div class="menu">
+                <ul class="menuorderlist">
+                    <li>About Us</li>
+                    <li>Quizes</li>
+                    <li>Contact Us</li>
+
+                </ul>
+
+            </div>
+            <div class="searchbar">
+                <input class="searchbarclass" type="search">
+                <button class="searchbutton"><img class="searchimgclass" width="32px" color
+                        src="./logos/search_FILL0_wght400_GRAD0_opsz48.png" alt="">
+                </button>
+
+            </div>
+
+
+
+        </header>
+        <div class="mybody">
+            <div class="quizcard" id="quizcardID">
+                <div class="questiondiv">
+                    <h4 id="questionID"></h4>
+
+                </div>
+                <div class="optionsdiv" id="optionsdivID">
+                    <form action="#" id="form">
+                        <input name="ANSWERS" class="AnswersClass" type="radio" id="option1">
+                        <label class="label" for="option1">option-1</label><br>
+                        <input name="ANSWERS" class="AnswersClass" type="radio" id="option2">
+                        <label class="label" for="option2">option-2</label><br>
+                        <input name="ANSWERS" class="AnswersClass" type="radio" id="option3">
+                        <label class="label" for="option3">option-3</label><br>
+                        <input name="ANSWERS" class="AnswersClass" type="radio" id="option4">
+                        <label class="label" for="option4">option-4</label><br>
+                    </form>
+                    <div class="nextbuttondiv" id="nextbuttonID">
+                        <button onclick="nextquestionfun()" class="nextoptionclass" id="nextquestionbuttonID">Next</button>
+                    </div>
+
+                    <div class="corrtansclass" id="corrtansID">
+                        <h5>Corrected Answers:<span id="corretansspanID">-</span></h5>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <footer class="footer">
+
+        </footer>
+
+
+
+
+
+
+    </div>
+
+
+
+
+    <script src="quiz.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizApp</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./Modal/Modalstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="main">
+        <header class="header">
+            <div class="logo">
+                <img class="logoimage" src="./logos/download-removebg-preview.png" alt="">
+
+            </div>
+            <div class="menu">
+                <ul class="menuorderlist">
+                    <li>About Us</li>
+                    <li>Quizes</li>
+                    <li>Contact Us</li>
+                </ul>
+
+            </div>
+            <div class="searchbar">
+                <input class="searchbarclass" type="search">
+                <button class="searchbutton"><img class="searchimgclass" width="32px" color
+                        src="./logos/search_FILL0_wght400_GRAD0_opsz48.png" alt="">
+                </button>
+
+            </div>
+
+
+
+        </header>
+        <div class="mybody">
+
+            <!-- ////////////////////////////// MODEL-1 ////////////////////////////////// -->
+            <div class="container" id="containerID">
+                <div class="Modal">
+                    <div class="image"><img class="imgaelogo" src="https://icons.iconarchive.com/icons/custom-icon-design/flatastic-9/256/Accept-icon.png" alt="Accepted_"></div>
+                    <div class="content"><h2 class="heading">Congratulation!</h2> </div>
+                    <div class="content"><h4 class="heading">You have Signed Up Successfully.</h4></div>
+                    <div class="closebutton"><button class="button" id="modalclosebuttonID">OK</button></div>
+                    
+                </div>
+            </div>
+            <!-- /////////////////////////////// MODEL-2 /////////////////////////////////// -->
+            <div class="container2" id="containerID2">
+                <div class="Modal2">
+                    <div class="image2"><img class="imgaelogo2" src="https://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/256/Actions-window-close-icon.png" alt="Cancel_"></div>
+                    <div class="content2"><h2 class="heading2">Error 404!</h2> </div>
+                    <div class="content2"><h4 class="heading2">Sorry,Credendtials Not Found!.</h4></div>
+                    <div class="closebutton2"><button class="button2" id="modalclosebuttonID2">OK</button></div>
+                    
+                </div>
+            </div>
+            <!-- ///////////////////////////////////////////////////////////////// -->
+
+            <div class="logincard" id="logincardID">
+                <h3 id="cardtitleID">Login Here</h3>
+
+                <div class="logindiv">
+                    <label for="">Username</label>
+                    <input placeholder="Email or Phone" type="email" id="emailID" class="inputfieldclass">
+                    <h6 id="alertID1" class="alert">This field is Required!</h6>
+                </div>
+
+                <div class="passworddiv">
+                    <label for="">Password:</label>
+                    <input placeholder="Password" type="password" id="passwordID" class="inputfieldclass">
+                    <h6 id="alertID2" class="alert">This field is Required!</h6>
+                </div>
+                <div class="loginbuttondiv">
+                    <button id="loginbuttonID" class="loginbuttonclass hovereffect1" onclick="loginIN()">Log In</button>
+                    <button id="signupbuttonID" class="signupbuttonclass hovereffect1" onclick="SignUP()">Sign Up</button>
+                    <img class="loaderclass" id="laoderID" src="./logos/output-onlinegiftools.gif" alt="">
+                </div>
+
+                <div class="newacountclass" id="newaccountID">
+
+                    <h6 class="newaccountheading hovereffect2" id="createAccountID">Create An Account</h6>
+                    <h6 class="LogINheading hovereffect2" id="logINID">Log In</h6>
+
+
+                </div>
+
+
+
+
+
+                <div>
+
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+        <footer class="footer">
+
+        </footer>
+
+
+
+
+
+
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,391 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-family: proxima-nova-2, arimo, Helvetica, sans-serif;
+}
+
+.main {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid green; */
+    height: 60px;
+    width: 100%;
+    /* box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); */
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 56%);
+    outline: none;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(49, 65, 82);
+    background-color: rgb(31, 47, 63);
+    color: white;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logoimage {
+    width: 112px;
+}
+
+.menuorderlist {
+    display: flex;
+    /* justify-content: ; */
+    padding: 8px;
+
+}
+
+.menuorderlist>li {
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 50px;
+}
+
+.menuorderlist>li:hover {
+    cursor: pointer;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.searchbarclass {
+    border: none;
+    outline: none;
+}
+
+.searchbutton {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.searchimgclass {
+    color: white;
+}
+
+
+
+.quizcard{
+    /* border: 2px solid red; */
+    box-shadow: 0 2px 5px 1px rgb(54, 53, 53);
+    width: 521px;
+    height: 300px;
+    padding: 30px;
+}
+
+.AnswersClass{
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+.nextbuttondiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+}
+.nextoptionclass{
+    background-color: brown;
+    border: none;
+    width: 90px;
+    height: 35px;
+}
+.nextoptionclass:hover{
+    cursor: pointer;
+    color: white;
+ 
+}
+
+.hovereffect1:hover{
+    color: rgba(255, 255, 255, 0.664);
+    background-color: rgb(31, 47, 63);
+    animation: 0.8s ease-in;
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mybody {
+    /* border: 2px solid black; */
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(238, 241, 245);
+    /* background-color: #080710; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.detailcard {
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 56%);
+    /* border: 2px solid red; */
+    border: none;
+    height: 239px;
+    width: 450px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(201, 158, 115);
+    border-radius: 12px;
+ 
+}
+
+.detailcard>a {
+    text-decoration: none;
+}
+
+.quizesheading {
+    background-color: rgb(201, 158, 115);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    border-radius: 12px;
+}
+
+.quizesheading:hover {
+    cursor: pointer;
+    background-color: rgb(136, 100, 64);
+    /* border: 2px solid red; */
+
+}
+
+.logincard {
+    height: 350px;
+    width: 300px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.13);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    backdrop-filter: blur(10px);
+    animation: myanimation 0.2s ease-in;
+    
+    
+}
+.logindiv{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 5px;
+    position: relative;
+    
+}
+.passworddiv{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 15px;
+    position: relative;
+    
+}
+.inputfieldclass{
+    margin-top: 5px;
+    width: 240px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+.inputfieldclass:focus{
+    border: none;
+    outline: none;
+    
+}
+.alert{
+    display: none;
+    color: red;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 4px;
+}
+.loginbuttondiv{
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    width: 243px;
+    height:35px ;
+    position: relative;
+}
+.loginbuttonclass{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: white;
+}
+
+.signupbuttonclass{
+    display: none;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: white;
+    /* background-color: transparent; */
+    /* background-image: url('logos/loder1.gif');
+    background-size: cover;
+    background-repeat: no-repeat; */
+    
+
+}
+.loaderclass{
+    width: 76px;
+    position: absolute;
+    top: -19px;
+    left: 83px;
+    /* bottom: 100px; */
+    margin: 0px;
+    padding: 0px;
+    display: none;
+
+}
+.signupbuttonclass:hover{
+    cursor: pointer;
+
+}
+
+.loginbuttonclass:hover{
+    cursor: pointer;
+}
+
+.newaccountheading:hover{
+    cursor: pointer;
+}
+
+.LogINheading{
+    display: none;
+
+}
+.LogINheading:hover{
+    /* display: none; */
+    cursor: pointer;
+}
+.newacountclass{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.newacountclass:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 20px;
+    left: 0px;
+    background-color: rgb(31, 47, 63);
+    transition:  0.25s ease-out;
+  }
+  
+  .newacountclass:hover:after {
+    transform: scaleX(1);
+    /* transform-origin: bottom left; */
+  }
+
+
+
+
+.corrtansclass{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    /* border: 2px solid yellow; */
+    width: 100%;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes myanimation {
+    from{ transform: scale(0);
+        opacity: 0.1;
+        
+    }
+    to{
+        transform: scale(1);
+        opacity: 1;
+
+    }
+    
+}

@@ -1,0 +1,152 @@
+#containerID{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid green; */
+    /* margin-top: 102px; */
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+    animation: myanimation 0.2s ease-in;
+   
+}
+
+.Modal{
+
+    width: 320px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 7px;
+    background-color: white;
+}
+
+.Modal div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.image{
+    position: relative;
+    /* border: 2px solid red; */
+    height: 50px;
+    
+}
+.imgaelogo{
+    width: 95px;
+    position: absolute;
+    /* border: 2px solid green; */
+    top: -100px;
+
+}
+
+.content, .heading{
+    margin: 8px;
+    padding: 0px;
+    
+
+}
+.button{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    background-color: rgb(119,194,43);
+}
+.button:hover{
+    background-color: rgb(72, 112, 32);
+    cursor: pointer;
+}
+
+
+
+
+/* ??????????????????????????????? MODEL 2 ?????????????????????????????????? */
+#containerID2{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid green; */
+    /* margin-top: 102px; */
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+    animation: myanimation 0.2s ease-in;
+   
+}
+
+.Modal2{
+
+    width: 320px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 7px;
+    background-color: white;
+}
+
+.Modal2 div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.image2{
+    position: relative;
+    /* border: 2px solid red; */
+    height: 50px;
+    
+}
+.imgaelogo2{
+    width: 95px;
+    position: absolute;
+    /* border: 2px solid green; */
+    top: -100px;
+
+}
+
+.content2, .heading2{
+    margin: 8px;
+    padding: 0px;
+    
+
+}
+.button2{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    background-color: rgb(119,194,43);
+}
+.button2:hover{
+    background-color: rgb(72, 112, 32);
+    cursor: pointer;
+}
+
+
+
+
+
+/* ???????????????????????????????mMODEL?????????????????????????????????? */
+
+
+
+
+
+@keyframes myanimation {
+    from{ transform: scale(0);
+        opacity: 0.1;
+        
+    }
+    to{
+        transform: scale(1);
+        opacity: 1;
+
+    }
+    
+}
